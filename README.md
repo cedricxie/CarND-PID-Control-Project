@@ -5,13 +5,13 @@
 
 | Trial  | P             | I               | D               |
 |:------:|:-------------:|:---------------:|:---------------:| 
-| 1      | 0.1           | 0.01            | 3.0             | 
-| 2      | **1.0**           | 0.01            | 3.0             | 
-| 3      | **0.01**          | 0.01            | 3.0             | 
-| 4      | 0.1           | **0.2**            | 3.0             | 
-| 5      | 0.1           | **0.0001**            | 3.0             | 
-| 6      | 0.1           | 0.01            | **5.0**             | 
-| 7      | 0.1           | 0.01            | **1.0**             | 
+| 1      | **0.1**           | **0.01**            | **3.0**             | 
+| 2      | *1.0*           | 0.01            | 3.0             | 
+| 3      | *0.01*          | 0.01            | 3.0             | 
+| 4      | 0.1           | *0.2*            | 3.0             | 
+| 5      | 0.1           | *0.0001*            | 3.0             | 
+| 6      | 0.1           | 0.01            | *5.0*             | 
+| 7      | 0.1           | 0.01            | *1.0*             | 
 
 ## Effect of P Component: 
 
@@ -24,7 +24,7 @@
 
 ## Effect of I Component
 
-1. Helps the car to steer more when there is a bias
+1. Helps the car to steer back to correct position even when there is a bias
 2. Three different values of I coefficient are studied:
 * I = 0.2: too much steering due to bias
 * I = 0.0001: too little adjustment for bias
